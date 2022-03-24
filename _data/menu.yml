@@ -1,0 +1,14 @@
+entries:
+  - title: HandBook
+    entries:
+      - title: 취미용 개발 공부 기록장
+      - title: 깃허브
+        url: https://github.com/limcpf
+
+  - title: DEV
+    post_list:
+      category: dev
+      limit: 5
+      show_more: true
+      show_more_text: 
+      show_more_url: dev-archive.html
