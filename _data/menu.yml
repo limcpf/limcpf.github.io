@@ -2,13 +2,21 @@ entries:
   - title: HandBook
     entries:
       - title: 취미용 개발 공부 기록장
-      - title: 깃허브
-        url: https://github.com/limcpf
+      - title: 공지사항
+        url: notice-archive.html
+        blank: false
 
   - title: DEV
     post_list:
       category: dev
-      limit: 5
+      limit: 3
       show_more: true
       show_more_text: 
       show_more_url: dev-archive.html
+    
+  - title: Contact
+    entries:
+      - title: limcpf's Github
+        url: https://github.com/limcpf
+        blank: true
+      - title: e-mail / daeseong0226@gmail.com

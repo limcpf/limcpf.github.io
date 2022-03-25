@@ -1,7 +1,9 @@
 <ul>
   {%-for item in include.collection-%}
     <li>
-    {%- if item.url -%}
+    {%- if item.url and item.blank -%}
+      <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+    {%- elsif item.url -%}
       <a href="{{ item.url }}">{{ item.title }}</a>
     {%- else -%}
       {{ item.title }}
